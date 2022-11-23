@@ -1,0 +1,146 @@
+/* big tablet tablet to  computer and laptop*/
+@media only screen and (max-width: 1200px){
+    .hero-text-box{
+        
+        width: 100%;
+        padding: 0 2%;
+        
+    }
+    .row{
+        padding: 0 2%;
+    }
+}
+/* small tablet to big tablet*/
+@media only screen and (max-width: 1023px){
+.long-copy{
+    width: 80%;
+    margin-left: 10%;
+}
+body{
+    font-size:18px ;
+}
+    section{
+        padding: 60px 0;
+    }
+    .steps-box{margin-top: 10px;}
+    .steps-box:last-child{margin-top: 10px;}
+    .works-step{margin-bottom: 40px;}
+    .works-step:last-of-type{margin-bottom: 60px;}
+    .app-screen{
+        width: 50%;
+    }
+    .icon-small{
+        width: 17px;
+        margin-right: 5px;
+    }
+    .city-feature{font-size: 90%;}
+    .plan-box{
+        width: 100%; 
+        margin-left: 0%; /*remove margin left here */
+    }
+    .plan-price{font-size: 250%;}
+    .contact-form{width: 80%;}
+}
+/* small phone to small tablet*/
+@media only screen and (max-width: 767px){
+body{
+    font-size: 17px;
+}
+header{
+    margin-top: -30px;
+    
+}
+section{padding: 30px 0px;}
+.row,
+.hero-text-box{padding:0 4%;}
+.col{
+    width: 100%;
+    margin: 0 0 4% 0;
+}
+.section-steps{
+    
+    height: 210vh;
+      
+}
+.main-nav{display: none;}
+.app-screen{width: 40%;}
+.steps-box:first-child{text-align: center;}
+.work-step div{
+    height: 40px;
+    width: 40px;
+    margin-right: 15px;
+    padding: 4px;
+    font-size: 120%;
+
+}
+.work-step{
+    margin-bottom: 20px;
+}
+.work-step:last-of-type{margin-bottom: 20ox;}
+.section-cities{
+    height: 500vh;
+}
+.section-feature{
+    height: 200vh;
+}
+.section-plans{
+    height: 250vh;
+}
+.section-form{
+    height: 180vh;
+}
+.social-link{
+    margin-top: -35px;
+    margin-right: 10px;
+}
+}
+/* small phone*/
+@media only screen and (max-width: 480px){
+    body{
+        font-size: 15px;
+    }
+section{padding: 25px 0;}
+.contact-form{width:100% ;}
+.section-features h2{
+    font-size: 21px;
+}
+.section-steps{
+    height: 150vh;
+}
+.section-cities h2{
+    font-size: 20px;
+}
+.section-cities{
+   height: 330vh;
+}
+.section-feature{
+    height: 210vh;
+}
+.section-plans h2{
+    font-size: 22px;
+}
+.section-form h2{
+    font-size: 22px;
+}
+.footer-nav li{
+    font-size: 16px;
+    margin-top: 10px;
+    
+}
+footer{
+    padding:10px 0;
+}
+.social-link {
+   margin-left: 50px; 
+   margin-top: 20px;
+    float: left;
+}
+.social-link li{
+    padding-left: 10px;
+    font-size: 25px;
+   
+}
+footer p{
+    font-size: 15px;
+}
+}
